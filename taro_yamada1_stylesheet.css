@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+    padding-top: 65px;
+    margin-right: 360px;
+    margin-left: 360px;
+}
+
+.container h2{
+  margin-bottom: 38px;
+  margin-top: 95px;
+}
+
+.container img{
+    width: 100%;
+  }
+
+  .details{
+      text-align: left;
+      margin-top: 16px;
+      margin-bottom: 16px;
+  }
+
+  .each_title {
+    text-align: left;
+    letter-spacing: .05em;
+  }
+  .each_title h3{
+    border-left: thick solid #333;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+
+  .each_title a{
+      text-decoration: none;
+      color: #1BA9E3;
+  }
+
+  .home_link{
+   margin-top: 90px;
+   padding-bottom: 90px;
+  }
+
+  .home_link a{
+    text-decoration: none;
+   color: #1BA9E3;
+  }

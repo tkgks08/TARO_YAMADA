@@ -1,0 +1,277 @@
+.header{
+   height: 65px;
+   width: 100%;
+   background-color: #fff;
+   box-shadow: 0 5px 10px -6px rgb(0 0 0 / 10%);
+   position: fixed;
+}
+
+.header_left{
+padding-left:90px;
+display: inline-block;
+}
+
+.header_left a{
+    line-height: 65px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header_right:hover a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .header_right:hover a::after {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+  }
+  .header_right a:hover::after {
+    transform: scale(1, 1);
+  }
+
+.header_right {
+    float: right;
+    height: 100%;
+    }
+
+.header_right ul{
+    height: 100%;
+    }
+
+.header_left a{
+text-decoration: none;
+}
+
+.header_right li{
+ display: inline; 
+ margin-right: 20px;
+ letter-spacing: .05em;
+ font-weight: bold;
+ font-size: 13px;
+ }
+
+ .header_right ul{
+     height: 100%;
+     margin: 0px 70px 0px 0px;
+     line-height: 65px;
+ }
+
+ .header_right a{
+    text-decoration: none;
+    color: black;   
+}
+
+
+ .introduction {
+    text-align: center;
+ }
+
+ .introduction h1{
+    padding-top: 290px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: .1em;
+ }
+
+ .introduction h3{
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: .1em;
+ }
+
+.introduction p{
+    margin-bottom: 263px;
+    letter-spacing: .1em;
+ }
+ 
+ .works{
+     background-color: pink;
+     max-width: 1440px;
+    padding: 0px 70px 90px 70px;
+ }
+
+ .works h1{
+    text-align: center;
+    padding-top: 95px;
+    margin-bottom: 45px;
+}
+
+.pics{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.picture{
+    margin: 0px 12px 0px 12px;
+   
+}
+
+.picture p1{
+ font-size: 12px;
+}
+
+.picture a{
+    font-size: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+   }
+
+   .description{
+    margin-bottom: 40px;
+}
+
+.skill h1{
+    padding-top: 90px;
+    margin: 0px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.skill_left{
+    width: 50%;
+    padding-left: 90px;
+}
+
+.skill img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.each_description{
+display: flex;
+margin-bottom: 60px;
+}
+
+.skill_left h3{
+    margin: 0px 0px 10px 0px;
+}
+
+.skill_left p{
+    font-size: 14px;
+    margin: 0px;
+    width: 90%;
+}
+
+.skill_display{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.skill_right p{
+    font-size: 14px;
+    margin: 0px;
+    width: 90%;
+}
+
+.skill_right h3{
+    margin: 0px 0px 10px 0px;
+}
+
+.skill_right{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.skill_right h3{
+padding-top: 2px;
+}
+
+.about{
+    padding: 95px 320px 0px 320px;
+    background-color: #F7F7F7;
+    padding-bottom: 97px;
+}
+
+.about h1{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    text-align: center;
+    letter-spacing: .05em;
+    color: #333;
+}
+
+.about img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-right: 30px;
+}
+
+.about_picture{
+    display: flex;
+}
+
+.about_picture p{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.contact{
+    padding-top: 95px;
+    margin-bottom: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.personal_info a{
+    text-decoration: none;
+    color:#1ca9e3;
+}
+
+.personal_info p{
+display: inline-block;
+}
+
+.personal_info {
+    margin-bottom: 95px;
+}
+
+.scroll_bar{
+    background-color: #4C4C4C;
+    height: 44px;
+    text-align: center;
+}
+
+.scroll_bar a{
+    color: white;
+    line-height: 44px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+footer{
+    height: 70px;
+    background-color: #333333;
+}
+
+footer p{
+  color:yellow;
+  font-size: 10px;
+  text-align: center;
+  line-height: 70px;
+  margin-top: 0px;
+}
+
